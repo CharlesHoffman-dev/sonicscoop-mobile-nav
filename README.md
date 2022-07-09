@@ -6,3 +6,5 @@ There's a FontAwesome icon within the search bar that should appear when you emb
 If you want, you can embed a FontAwesome arrow next to the menu items with dropdown content.
 
 Feel free to style the menu however you want. The search bar works and all the functionality is there.
+
+This nav menu will only appear when the viewfinder width is smaller than or equal to 680px.
