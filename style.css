@@ -1,0 +1,126 @@
+.nav-bar-mobile {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    background-color: #333;
+}
+
+.nav-items-displayed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    max-width: 960px;
+}
+
+#mobile-menu-button {
+    display: flex;
+    direction: vertical;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: #277f97;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 9px 15px;
+    width: 80px;
+}
+
+.dropdown-menu {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #cecece;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mobile-search {
+    width: 90%;
+    max-width: 960px;
+}
+
+#form-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0px;
+}
+
+.submit-button {
+    box-sizing: border-box;
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px;
+    border-left: 1px solid #cecece;
+    background-color: white;
+    color: #277f97;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mobile-menu-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+.mobile-menu-item.sub-link {
+    font-weight: 500;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #e2e2e2;
+}
+
+.mobile-menu-text {
+    width: 90%;
+    max-width: 960px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 680px) {
+    .nav-bar-mobile {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 681px) {
+    #mobile-dropdown-menu {
+        display: none !important;
+    }
+}
