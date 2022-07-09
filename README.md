@@ -1,7 +1,7 @@
 # SonicScoop's Mobile Navigation Menu
 The CSS file, JS file, and single image are linked to the index.html file.
 
-There's a FontAwesome icon within the search bar that should appear when you embed this code within the site. I didn't bother adding FontAwesome to the index.html file.
+FontAwesome has been included within the assets folder for reference but I believe this library is already available on SonicScoop's website.
 
 If you want, you can embed a FontAwesome arrow next to the menu items with dropdown content.
 
