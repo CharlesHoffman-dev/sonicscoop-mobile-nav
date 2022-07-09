@@ -1,8 +1,18 @@
+body {
+    height: 2000px;
+}
+
+.website-logo {
+    margin-top: 2px;
+}
+
 .nav-bar-mobile {
     display: none;
+    position: fixed;
     justify-content: center;
     width: 100%;
     background-color: #333;
+    z-index: 999;
 }
 
 .nav-items-displayed {
@@ -19,7 +29,7 @@
     direction: vertical;
     align-items: center;
     justify-content: center;
-    height: 30px;
+    height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -29,7 +39,7 @@
     border-radius: 5px;
     text-decoration: none;
     padding-left: 9px 15px;
-    width: 80px;
+    width: 47px;
 }
 
 .dropdown-menu {
@@ -38,13 +48,17 @@
     font-size: 16px;
     color: #333;
     background-color: #cecece;
+    position: fixed;
+    width: 100%;
+    top: 58px;
+    z-index: 998;
 }
 
 .search-area {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
 }
 
